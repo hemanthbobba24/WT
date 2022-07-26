@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>EasyMed</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./Style.css" />
+  <link rel="stylesheet" href="./mobile-style.css">
+  
+</head>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<body>
+  <header>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+        
+            <i class='fas fa-prescription-bottle-alt' style='font-size:48px;color:red'></i>
+            <font size="4px" color="white">EasyMed</font></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#d1">Nearest Medical Shops
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#d2">Nearest-Pharmacies</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#d0">Medicine-availibility</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="Team.php" class="nav-link">Buy-Medicine</a>
+               
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#d3">CONTACT US</a>
+            </li>
+              
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h1>Welcome to EasyMed</h1>
+
+          <p>
+            EasyMed is the hospital maanagement system@VITAP
+          </p>        </div>
+<div class="col-md-5 col-sm-18  h-1">
+<div id="mainDiv">
+    <div id="boxDiv">
+        <div id="front"></div>
+        <div id="back"></div>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+        
+        <div class="shadow"></div>
+    </div>
+</div>    
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-1">
+    
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="pray">
+            <div id="d1"></div>
+            <form action="nearest.html">
+              <label for="fname">Medicine name</label>
+              <input type="text" id="fname" name="fname"><br><br>
+             
+              <input type="submit" value="Submit"  >
+            </form>
+<br>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d61209.69343333678!2d80.48288093679699!3d16.495484404205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snearest%20medical%20store!5e0!3m2!1sen!2sin!4v1637217412647!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-2 container-fluid p-0"   <div id="d0"></div>
+      <div class="cover">
+        <div class="overlay"></div>
+        <div class="content text-center">
+          <h1>Availibility of your medicine</h1>
+          <p>
+            "A passion for better medicine @ VITAP"
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+          <div class="rect">
+            <h1>22</h1>
+            <p>PARACETMOL AVAILIBLE</p>
+          </div>
+          <div class="rect">
+            <h1>1</h1>
+            <p>DOLO 650 AVAILIBLE</p>
+          </div>
+          <div class="rect">
+            <h1>1</h1>
+            <p>calpol 650</p>
+          </div>
+          <div class="rect">
+            <h1>24</h1>
+            <p>Algina Tablet 10s	</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="d2"></div>
+
+      <div class="purchase text-center">
+        <h1>Buy now</h1>
+        <p>
+         BUY NOW IS COMPLETED !! 
+        </p>
+       
+        </div>
+      </div>
+    </section>
+    <section class="section-3 container-fluid p-0 text-center">
+      <div class="row">
+        
+
+        <div class="col-md-12 col-sm-12">
+        <div id="d4"></div>
+ 
+  <footer>
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-md-5 col-sm-5">
+            <div id="d3"></div>
+
+          <h4 class="text-light">Contact us</h4>
+          <p class="text-muted">Follow us..Let us be Social!</p>
+          <p class="pt-4 text-muted">
+          <span style="font-family: 'Comfortaa'; font-size: 12px;">Copyright © 2021 by EasyMed Team8</span>          </p>
+        </div>
+      
+       
+              
+ <div class="social-icons">
+          <ul id="menu">
+
+
+                   
+              <li><a href="#"><i class="fa fa-instagram" style='color:#bc2a8d' onclick="window.open('https://www.instagram.com/yasasinukollu/','_blank')"></i></a></li>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+             <li><a href="#"><i class="fas fa-envelope-square"  onclick="window.open('https://vitap.ac.in/','_blank')"></i></a></li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          </ul>
+          
+          
+      </div>
+       
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+</body>
+
+</html>
+
