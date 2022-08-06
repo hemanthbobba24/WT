@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+    background-color: #cc0404;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0px;
+}
+.loginpage{
+  background-color:white;
+  height: auto;
+  width: auto;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+.h1tag{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0px;
+}
+.textfield{
+	display: inline-block;
+	padding:10px;
+	width: 100%;
+	margin: auto;
+    margin-bottom: 25px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: 'Noto Sans Mono', monospace;
+}
+.label1{
+   display: inline-block;
+   margin-bottom: 5px;
+   font-size: 20px;
+   font-family: 'Noto Sans Mono', monospace;
+}
+.pass{
+	position: relative;
+	border: 1px solid black;
+}
+.password{
+	position: relative;
+}
+.password2{
+      position: relative;
+  }
+#pass2text{
+  margin-bottom: 0px;
+}
+.visible{
+	position: absolute;
+	right: 25px;
+	top: 40px;
+	background-color: white;
+	border: 0;
+	cursor: pointer;
+}
+ .confirm{
+	position: absolute;
+	right: 25px;
+	top: 40px;
+	background-color: white;
+	border: 0;
+	cursor: pointer;
+}
+#pass1novis{
+	display: none;
+}
+#pass2novis{
+	display: none;
+}
+.btn{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-size: 25px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #0bde83;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	border: 0;
+	margin-top: 20px;
+}
+.btn:hover{
+	background-color:  #069e5d;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+#error{
+	display: none;
+	margin: 0px;
+	color: red;
+}
